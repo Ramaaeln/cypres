@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Hasil run Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Hasil laporan dan coverage, kalau dibuat
+coverage/
+.nyc_output/
+test-results/
+
+# File lokal dan rahasia
+.env
+.env.*
+!.env.example
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
